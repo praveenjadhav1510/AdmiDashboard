@@ -66,6 +66,22 @@ table td:hover {
     color: black;
     padding: 5px;
 }
+.table-search {
+    background: #1e1e1e;
+    color: white;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 300px;
+    outline: 5px solid #ffffff00;
+    outline-offset: 5px;
+    border-radius: 20px;
+    border: none;
+    transition: all 0.3s ease-in-out;
+}
+.table-search:hover {
+    outline: 1px solid #1e1e1e;
+    outline-offset: 0px;
+}
 .red {
     color: red;
 }
